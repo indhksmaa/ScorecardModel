@@ -44,7 +44,7 @@ Penggunaan
 
 Model ini dapat digunakan untuk memprediksi apakah seorang nasabah akan mengalami kesulitan pembayaran pinjaman. Model ini dapat digunakan oleh lembaga keuangan untuk menentukan apakah nasabah layak untuk diberikan pinjaman.
 
-Pustaka yang digunakan
+Pustaka yang digunakan :
 
 ````python
 import pandas as pd
@@ -62,6 +62,10 @@ from sklearn.metrics import confusion_matrix
 
 Untuk menjalankan model, buka file Data_Preprocessing.ipynb dan Modelling.ipynb File tersebut berisi kode untuk mempersiapkan data, melatih model, dan mengevaluasi model.
 
-Kesimpulan
+## Kesimpulan
 
 Model machine learning score card ini dapat digunakan untuk memprediksi apakah seorang nasabah akan mengalami kesulitan pembayaran pinjaman. Model ini memiliki akurasi yang cukup baik, yaitu 0,97.
+## Referensi 
+[sklearn Documentation : Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)<br>
+[sklearn Documentation : Light GBM](https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html#lightgbm.LGBMClassifier) <br>
+[sklearn Documentation : XG Boost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
